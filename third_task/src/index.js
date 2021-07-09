@@ -1,8 +1,11 @@
+// The below two lines to handle IE 11
 import "react-app-polyfill/ie11";
 import "react-app-polyfill/stable";
 
 import React from "react";
 import ReactDOM from "react-dom";
+
+// Adding all the system styles
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-datepicker/dist/react-datepicker.css";
 import "react-toastify/dist/ReactToastify.css";

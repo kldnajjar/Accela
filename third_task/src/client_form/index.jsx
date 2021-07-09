@@ -32,6 +32,7 @@ class ClientForm extends FormWrapper {
     },
   ];
 
+  // Declartion for the validation
   schema = {
     first_name: Joi.string().required().label("First Name"),
     last_name: Joi.string().required().label("Last Name"),
